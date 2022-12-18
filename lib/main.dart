@@ -26,7 +26,7 @@ class _StoryPageState extends State<StoryPage> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('images/space2.jpg'),
+            image: AssetImage('images/harbor2.webp'),
             fit: BoxFit.cover,
           )
         ),
@@ -42,7 +42,9 @@ class _StoryPageState extends State<StoryPage> {
                   child: Text(
                     storyBrain.getStory(),
                     style: TextStyle(
+                      color: Colors.black,
                       fontSize: 25.0,
+                      fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),

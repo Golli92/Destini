@@ -5,33 +5,40 @@ int _storyNumber = 0;
   List<Story> _storyData = [
     Story(
         storyTitle:
-        'Your spaceship has blown a fuse in the middle of nowhere with no signal reception. You decide to hitchhike. A rusty and old spaceship truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: "Need a ride, boy?".',
-        choice1: 'I\'ll hop in. Thanks for the help!',
-        choice2: 'Better ask him if he\'s a murderer first.'),
+        'Oi! you with the hard looks and big arms! I desperately need some help o\'er here! Spare a few minutes to help make sure I get out of port on time?\n '
+            'Otherwise I\'ll be stuck here until tomorrow!',
+        choice1: 'Help the Captain load the ship',
+        choice2: 'You ask him if you will get paid for assisting him'),
     Story(
-        storyTitle: 'He nods slowly, unphased by the question.',
-        choice1: 'At least he\'s honest. I\'ll climb in.',
-        choice2: 'Wait, I know how to change a fuse.'),
-    Story(
-        storyTitle:
-        'As you begin to fly, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the cabin. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.',
-        choice1: 'I love Elton John! Hand him the cassette tape.',
-        choice2: 'It\'s him or me! You take the knife and stab him.'),
+        storyTitle: 'He looks at you. Well my money is little tight right now how about you join my crew and I will pay you in next port then I sell this merchandise ',
+        choice1: 'Why not! I am ready for some adventure and some fun!',
+        choice2: 'Sorry don\'t have the time or inclination for such things. you move on with your business.'),
     Story(
         storyTitle:
-        'What? Such a cop out! Did you know spaceship accidents are the second leading cause of accidental death for most adult age groups?',
+        'What was advertised as a few minutes turns out to be an hour or two as you lug large crates full of items from a nearby warehouse into the hold of the ship.\n'
+         'City guards come running with swords in hand yelling stop criminal scum. The captain yell defend them of or kill them and I will pay you triple. ',
+        choice1: 'you put the crate on the floor and give up.',
+        choice2: 'you will help the captain and kill the guards.'),
+
+    Story(
+        storyTitle:
+        'Unwilling to be bothered by such trivial matters, you continue on your way amidst curses from the ship\'s captain.',
         choice1: 'Restart',
         choice2: ''),
+
     Story(
         storyTitle:
-        'As you smash through the window of the spaceship and careen towards the asteroid in front of you reflect on the dubious wisdom of stabbing someone while they are navigating a spaceship you are in.',
+        'After you kill the guards you look over to the captain who is setting sail as fast as possible. You jump in the see and climb abort the ship. You owe me some money oh there big captain.\n'
+            'The Captain is impressed and offer you a place in the crew as first mate who is second in command. You go on and join this pirate/swindlers crew and make good money.',
         choice1: 'Restart',
         choice2: ''),
+
     Story(
         storyTitle:
-        'You bond with the murderer while crooning verses of "Can you feel the love tonight". He drops you off at the next planet space dock. Before you go he asks you if you know any good places to dump bodies. You reply: "Try the pier".',
+        'The guards arrest you. you are dragged to the dungeons and interrogated. You tell them the captain hired you to move some crates for him and you are not part of the crew or helped him in any way.\n'
+            'You are not believed and they chop of your hand for theft and throw you in to cell to die alone in darkness.',
         choice1: 'Restart',
-        choice2: '')
+        choice2: ''),
   ];
 
   String getStory() {
